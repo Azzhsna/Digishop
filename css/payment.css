@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.input-grup {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 4em 1em;
+}
+body{
+    background: #A5D1DF;
+    margin: 0 10px;
+}
+
+.wrapper{
+    margin-left: 30px;
+}
+.next{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.payment{
+  max-width: 550px;
+  margin: 50px auto;
+  height: auto;
+  padding: 30px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: left;
+  font-style: 'Poppins';
+}
+
+.Payment h1{
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: #030f20;
+}
+
+.Payment h2{
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: #030f20;
+}
+.name{
+    color: #fcfcfc;
+}
+.Payment h3{
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+.form label{
+    color:#1D2521;
+    margin-bottom: 30px;
+    text-align: right;
+    width: 50%;
+}
+
+.box-content{
+    /* display:center; */
+    /* text-align: center; */
+    background-color: #b5dcf5;
+    width: 80%;
+    margin-left: auto;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    align-items: center;flex-direction: column;
+    padding: 30px;
+    border: 10px ;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+.input-box{
+    /* display:grid; */
+    grid-template-columns: 70%;
+    margin-left: auto;
+    background-color: #01253b;
+    width: 45%;
+    flex-direction: column;
+    align-items: left;
+    margin-top: -400px;
+    padding: 20px;
+    border: 10px ;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+.card-pay{
+    font-display: left;
+    text-align: right;
+    margin-right: auto;
+}
+
+.form .input{
+    padding: 13px 0 13px 25px;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    word-wrap: 3px;
+    outline: none;
+    font-size: 14px;
+    color: #040202;
+    padding-bottom: 10px;
+}
+.detail-box{
+    background-color: white;
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        border-radius: 15px;
+        align-items: left;
+        padding: 30px;
+}
+.inp
+.card{
+    margin-top: 15px;
+}
+.card-grp{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment h4{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #1D2521;
+}
+
+.name:focus{
+    -webkit-box-shadow:0 0 2px 1px #ffffff;
+    -moz-box-shadow:0 0 2px 1px #ffffff;
+    box-shadow: 0 0 8px 1px #ffffff;
+    border: 7px solid #2f91aa;
+}
+
+.radio{
+    display: none;
+    padding-top: 10px;
+    padding: auto;
+    text-decoration-color: #141414;
+}
+.radio:checked + label{
+    background-color: #079dab;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.input[type="radio"]:checked{
+    box-shadow: #079dab;
+}
+.input-box select{
+    display:;
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    float:left;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration-color: #ffffff;
+}
+.space{
+    margin-bottom: 4px;
+}
+.botton{
+    margin-top: 10px;
+    border: none;
+    background: #d1d1d1;
+    padding: 12px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    border-radius: 12px;
+    transition: all 0.35s ease;
+}
+
+.botton:hover{
+    cursor: pointer;
+    background:  #079dab;
+}
+/*
+@media screen and (min-width: 600px){
+    .card-grp{
+        flex-direction: column;
+    }
+    .card-item{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .botton{
+        margin-bottom: 20px;
+    }*/

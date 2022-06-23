@@ -1,0 +1,66 @@
+body {
+    background-color: #A5D1DF;
+}
+
+table{
+    border-color: black;
+    table-layout:auto;
+    width: 100%;
+}
+
+
+
+.welcometext {
+    margin-left: 15%;
+    font-size: 60px;
+    padding-top: 25px;
+} 
+
+.logolandingpage {
+    float: left;
+    margin-left: 80px;
+    
+}
+
+.welcomepagetop {
+    text-align: center;
+}
+
+.rectangleshape {
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  height: 400px;
+}
+
+.imagecontent {
+    margin-top: -395px;
+}
+
+.contenttext {
+    color: #002D40;
+    text-align: left;
+    margin-left: -0,5%;
+    font-size: 40px;
+    margin-top: -17%;
+}
+
+.buttonlandingpage {
+    border: none;
+    color: #002D40;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #A5D1DF;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.calltoaction {
+    margin-top: 15%;
+}

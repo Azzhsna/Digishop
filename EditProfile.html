@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="css/EditProfileCSS.css">
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="user profile.css">
+    <script src="https://kit.fontawesome.com/59f799b75f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <div class="navbar">
+            <div class="navbar-brand">
+                <img src="images/logolandingpage.png" alt="">
+            </div>
+            <div id="link-group" class="link-group">
+                <ul>
+                    <li class="nav-link"><a href="HomePage.html"><span class="material-icons">home</span>Home</a></li>
+                    <li class="nav-link"><a href="Catalogue.html"><span class="material-icons">info</span>Catalogue</a></li>
+                    <li class="nav-link"><a href=""><span class="material-icons">article</span>Work</a></li>
+                    <li class="nav-link"><a href="user profile.html"><span class="material-icons">photo_library</span>Profile</a></li>
+                    <li class="nav-link"><a href="login.html"><span class="material-icons">contacts</span>Logout</a></li>
+                </ul>
+            </div>
+            <div class="mobile-btn">
+                <span onclick="menuOpen();" id="open" class="material-icons open">menu</span>
+                <span onclick="menuClose();" id="close" c class="material-icons close">close</span>
+            </div>
+        </div>
+    <!-- partial -->
+      <script  src="js/user profile.js"></script>
+    
+    </body>
+    </html>
+
+
+
+
+<body>
+    <table>
+        <tr>
+            <div class="profilepicture">
+                <td rowspan="7" valign = "top">
+                    <h1>Ubah Profile</h1>
+                    <img src="noimage.webp" alt="image is not available">
+                </td>
+            </div>
+            <td> 
+                <form>
+                    <label for="namadepan"><h1>Nama Depan</h1></label><br>
+                    <input type="text" id="namadepan" name="namadepan">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="namabelakang"><h1>Nama Belakang</h1></label><br>
+                    <input type="text" id="namabelakang" name="namabelakang">
+                </form>
+            </td>
+            <td rowspan="4" valign="top">
+                <form>
+                    <label for="katasandibaru"><h1>Kata Sandi Baru</h1></label><br>
+                    <input type="text" id="katasandibaru" name="katasandibaru" placeholder="Kata Sandi Baru">
+
+                    <label for="konfirmasikatasandibaru"><p><h1>Konfirmasi Kata Sandi Baru</h1></p></label><br>
+                    <input type="text" id="konfirmasikatasandibaru" placeholder="Konfirmasi Kata Sandi" name="konfirmasikatasandibaru">
+                </form>
+                <p><button class="buttonkatasandi">Submit</button></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="email"><h1>Email</h1></label><br>
+                    <input type="text" id="email" name="email">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="jeniskelamin"><h1>Jenis Kelamin</h1></label><br>
+                    <input type="text" id="jeniskelamin" name="jeniskelamin">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="tanggallahir"><h1>Tanggal Lahir</h1></label><br>
+                    <input type="text" id="tanggallahir" name="tanggallahir">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="user profile.html">
+                    <button class="button">Simpan</button>
+                </a>
+
+                
+
+                <a href="user profile.html">
+                    <button class="button">Batal</button>
+                </a>
+                
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        var pressedButton = document.getElementsByTagName("button")[0];
+       
+        pressedButton.addEventListener("click", function (event) {
+          alert("Profile updated")
+        })
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.input-grup {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 4em 1em;
+}
+body{
+    background: #A5D1DF;
+    padding-top: 40px;
+    margin: 0 10px;
+}
+
+.wrapper{
+    margin-left: 30px;
+}
+
+.payment{
+  max-width: 550px;
+  margin: 50px auto;
+  height: auto;
+  padding: 30px;
+  padding-top: 80px;
+  border-radius: 5px;
+  position: left;
+  font-style: 'Poppins';
+}
+
+.Payment h1{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color:  #01253b;
+}
+.img-content{
+    padding-left: 40%;
+    color:  #01253b;
+}
+/* .struk{
+    margin-right: 20%;
+} */
+.box-content{
+    /* display:grid; */
+    background-color: #b5dcf5;
+    width: 83%;
+    margin-top: 3%;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 10px ;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+.struk{
+    padding-top: 20px;
+    padding-left: 37%;
+    padding-bottom: 20px;    
+}
+.struck{
+    margin-top: -100px;
+    padding-left: 53%;
+    padding-bottom: 20px;    
+}
+.botton{
+    padding-top: 10px;
+}
+.botton:hover{
+    cursor: pointer;
+    background:  #079dab;
+}
+
+.next{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.payment{
+    max-width: 550px;
+    margin: 50px auto;
+    height: auto;
+    padding: 30px;
+    padding-top: 70px;
+    border-radius: 5px;
+    position: left;
+    font-style: 'Poppins';
+  }
+
+  .Payment h1{
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: #030f20;
+}
+
+.Payment h2{
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: #030f20;
+}
+.name{
+    color: #fcfcfc;
+}
+.Payment h3{
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: #ffffff;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lange="en">
+
+<!-- fonts style -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <script src="https://kit.fontawesome.com/59f799b75f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <section class="product_section "></section>
+            <div class="product_container">
+                <div class="box">
+                 
+        <div class="Payment">
+            <div class="next">
+                <a href="HomePage.html">
+                    <h1> < LANJUT BELANJA</h1>
+                </a>
+                
+            </div>
+            
+            <div class="box-content">
+
+            <h1>KERANJANG BELANJA</h1>
+            <h4>Kamu mempunyai tiga barang di keranjang</h4>
+
+            <!--Keranjang-->
+
+            <div class="form">
+                
+                <div class="input-formbox">
+                    <div class="detail-box">
+                        
+                            <img src="icon/voucher.png" align="left" width="120px"/>
+                         
+                    <div class="text">
+                        <h2>Voucher</h2>
+                        <form>
+                        <font color= "grey"> Cash Dead by Daylight</font>
+                        <tr>
+                            <input type="number" name="quantity" min="1" max="100"></tr>
+                            <tr><span>Rp.</span> 250.000</align></tr>
+                          </form>
+                        <h4>Toko toki</h4>
+                </div>
+            </div>
+             
+            <div class="detail-box">
+                <img src="icon/subscription.png" align="left" width="120px"/>
+                <div class="text">
+                    <h2>Subscription</h2>
+                    <form>
+                    <font color= "grey"> Premium, 1 hari</font>
+                    <tr>
+                    <input type="number" name="quantity" min="1" max="100">
+                    <span>Rp.</span> 5.000</h4> </tr>
+                     </form>
+                    <h4 >Jajanku</h4>
+                    </div>
+                    </div>
+            </div>
+
+                <!--Metode Pembayaran-->
+                <div class="input-group">
+                    <div class="input-box">
+                        <div class="name">
+                        <h2><font color="white"> Metode Pembayaran</font></h2>
+                        <label class right="label right"></label>
+                        <input type="radio" name="pay"
+                        id="bc1" checked class="radio">
+                        
+                        <label for="bc1"><i class="fab fa-cc-OVO"><h3> OVO</font></h3></i></label>
+                         <input type="radio" name="pay" id="bc2" class="radio">
+
+                        <label for="bc2"><i class="fab fa-cc-Gopay"><h3>Gopay </font></h3></i></label>
+                        <input type="radio" name="pay" id="bc3" class="radio">
+
+                        <label for="bc3"><i class="fab fa-cc-Shopeepay"><h3> Shopeepay </font></h3></i></label>
+                        <input type="radio" name="pay" id="bc4" class="radio">
+
+                        <label for="bc4"><i class="fab fa-cc-Dana"><h3> Dana </font></h3></i></label>
+                        <input type="radio" name="pay" id="bc5" class="radio">
+
+                        <label for="bc5"><i class="fab fa-cc-Master Card"><h3> Master Card </font></h3></i></label>
+                        <input type="radio" name="pay" id="bc6" class="radio">
+
+                        <label for="bc6"><i class="fab fa-cc-Visa"><h3> Visa </font></h3></i></label>
+                        <input type="radio" name="pay" id="bc7" class="radio" font color="white">
+
+                        <label for="bc7"><i class="fab fa-cc-Uang Jajan"><h3> Uang Jajan </font></h3></i></label>
+                        
+                        <input type="radio" name="pay" id="bc8" class="radio">
+                    
+
+                <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you agree to the Terms and Conditions and Privacy Policy'); return false; }">
+                    <input type="checkbox" name="checkbox" value="check" id="agree"/> <font color= "white"> Menggunakan voucher Digishop
+                </form>
+                
+                <!--Form Pembayaran-->
+                <div class = "card-item" >
+                    <br>   
+                <div class="card-item icon-relative">
+                    <div class="name">
+                    <font color="white">Nama Bank</font>
+                    <label class="label"></label>
+                    <input type="text" class="input" name="Nama_Bank" placeholder= "Bank Central Indonesia">  
+                    <font color= "white"> 
+                </div> 
+                <div>
+                    <br>
+                    <div class="card-item icon-relative">
+                        <font color="white">Tanggal Expired</font>
+                        <label class="label"></label>
+                        <input type="text" class="input" name="Tanggal_Expired" placeholder=
+                        "MM / YY" data-mask="00 / 00"> 
+                    </div>
+                <div>
+                    <br>
+                    <div class="card-item icon-relative">
+                        <font color="white">Nomor rekening</font>
+                        <label class="label"></label>
+                        <input type="text" class="input" placeholder=
+                        "1234 1234 1234 1234" data-mask="0000 0000 0000 0000">
+                        
+                    </br>
+                    </div>    
+                    <br>
+                    <div class="card-item icon-relative">
+                        <font color="white">CVV</font>
+                        <label class="label">:</label>
+                        <input type="text" class="input" name="CVV" placeholder="000" data-mask="000">
+                    </br>
+                    </div>
+                    <div>
+                        <br>
+                    <div class="card-item icon-relative">
+                        <font color="white">Nama Pemilik Rekening</font>
+                        <label class="label"></label>
+                        <input type="text" class="input" name="Nama_Pemilik" placeholder="Jane Doe">
+                    </br>
+                      <br>
+                        <p style="word-spacing: 17em;">Subtotal Rp.255.500</p>
+                        <p style="word-spacing: 16em;">Administrasi Rp.1.500</p>
+                        <p style="word-spacing: 16em;">Pajak(10%) Rp.25.500</p> 
+                        </div>
+                    </div>
+                  </br>
+                 </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+                <div class="botton">
+                    <p style="word-spacing: 13em;"><b>RP.250.000</b>  Bayar</p>
+                </div>
+            </div>
+        </div>
+        </div>
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</body>
+</html>
